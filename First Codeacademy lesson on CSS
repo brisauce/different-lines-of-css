@@ -1,0 +1,20 @@
+/* The following code (at the top) is used to change the particular color of a piece of text in an HTML document, by way of CSS formatting.
+Each piece of red text below is the selector, (what the code will effect when it is executed) and the declaration, or what the code will do to the specific text or element, is placed within the curly brackets. This is the case for all CSS code to the best of my current understanding.
+Below the top element, as in below where the brackets close, there is an element to change the size property of an element in the html document. Below that, there is an element to change the colors for multiple lines of text in the document. You can tell it affects several lines of code because there are commas which seperate the various subjects. 
+Below that, an asterisk is used to identify that the declaration that follows will effect all applicable text within the html document.  */
+h1 {
+  color: firebrick;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1, p {
+  color: DarkSlateGray;
+}
+
+* {
+  font-family: Georgia;
+}
+/* last but not least, all CSS declatations must end in ";" (QNI) */
